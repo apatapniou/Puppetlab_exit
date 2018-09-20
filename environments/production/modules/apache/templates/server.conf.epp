@@ -1,0 +1,7 @@
+<%- | $server_name,
+| -%>
+
+<VirtualHost *:80>
+DocumentRoot  '/var/www/html'
+ServerName  www.<%= $server_name %>.eu
+</VirtualHost>
